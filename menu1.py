@@ -34,6 +34,7 @@ def showDetails(list = []):
 
 
 #FOR REGISTERING A USER
+
 def register():
     print("=================REGISTER THE USER====================")
     enterDetails()
@@ -41,6 +42,7 @@ def register():
 
 
 #FOR SEARCHING A USER
+
 def search():
     print("=================SEARCH A USER====================")
     fobj2 = open("myfile.txt", "rb")
